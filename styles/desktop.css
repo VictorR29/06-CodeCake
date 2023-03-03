@@ -1,0 +1,38 @@
+.fi-rr-menu-burger {
+  display: none;
+}
+
+.navbar__container {
+  position: initial;
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+}
+
+.navbar__container ul {
+  flex-direction: row;
+}
+
+.navbar__container li {
+  text-align: center;
+}
+
+.navbar__container a {
+  padding: 8px;
+  border-radius: 20px;
+  background-color: var(--black-color);
+}
+
+.navbar__container a:hover {
+  color: var(--black-color);
+  background-color: var(--ligh-color);
+}
+
+.products__grid {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.contact__information {
+  max-width: 500px;
+}
